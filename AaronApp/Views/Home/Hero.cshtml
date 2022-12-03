@@ -1,18 +1,18 @@
-﻿@model Superhero
+@model Superhero
 @{
     ViewData["Title"] = "Home Page";
 }
 <form>
-    <div class="form-group">
-        <label for="heroInput">Favorite Superhero</label>
-        <input type="text" class="form-control" id="heroInput"placeholder="Enter superhero">
+    <div class="form-group" style="margin-top: 60px;">
+        <label for="heroInput" style="font-size:27px;">Favorite Superhero</label>
+        <input style ="border-color:black;"type="text" class="form-control" id="heroInput"placeholder="Enter superhero">
         <small id="heroInput" class="form-text text-muted">supervillians can not hack this site!</small>
     </div>
  
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
-<table class="table-bordered">
+<table class="table-bordered" style="width: 500px !important; margin-top: 100px; border-width: thick; border-color: black!important">
     <thead>
         <tr>
             <th scope="col">#</th>
@@ -22,7 +22,7 @@
     <tbody>
         <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
+            <td>Green Lantern</td>
        
         </tr>
 
